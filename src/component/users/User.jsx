@@ -16,7 +16,11 @@ class User extends Component {
                   <Link to={"/users/" + login} className="btn btn-success me-3">
                      Show more
                   </Link>
-                  <Link to={repos_url} className="btn btn-primary">
+                  <Link
+                     to={"/users/" + login + "/repos"}
+                     // to={repos_url}
+                     className="btn btn-primary"
+                  >
                      Repositories
                   </Link>
                </div>
