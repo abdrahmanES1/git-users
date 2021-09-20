@@ -6,7 +6,7 @@ class User extends Component {
    //    }
 
    render() {
-      const { login, avatar_url, repos_url } = this.props.user;
+      const { login, avatar_url } = this.props.user;
       return (
          <div className="card mt-4">
             <img className="card-img-top" src={avatar_url} alt="img" />
